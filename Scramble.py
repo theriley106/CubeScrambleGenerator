@@ -17,7 +17,7 @@ def Generator(length):
 			else:
 				if "'" in str(Move):
 					Move = str(Move).replace("'", "")
-				Scramble.append('2{}'.format(Move))
+				Scramble.append('{}2'.format(Move))
 	T = ""
 	for moves in Scramble:
 		T = T + " " + str(moves)
